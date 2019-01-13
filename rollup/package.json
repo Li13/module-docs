@@ -1,0 +1,23 @@
+{
+  "name": "rollup-esm",
+  "version": "1.0.0",
+  "description": "esmodules running in rollup",
+  "main": "index.js",
+  "scripts": {
+    "watch": "rollup -w -c",
+    "node": "node dist/main.js",
+    "start": "rollup -c && npm run node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup",
+    "esmodule",
+    "esm"
+  ],
+  "author": "li13",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.1.0",
+    "rollup-plugin-commonjs": "^9.2.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "nodejs-esm",
+    "version": "1.0.0",
+    "description": "esmodules running in nodejs",
+    "main": "index.js",
+    "scripts": {
+        "node": "node --experimental-modules index.mjs",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "nodejs",
+        "esmodule",
+        "esm"
+    ],
+    "author": "li13",
+    "license": "MIT"
+}

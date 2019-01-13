@@ -1,0 +1,20 @@
+{
+  "name": "browser-esm",
+  "version": "1.0.0",
+  "description": "esmodules running in browsers",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "esmodule",
+    "esm"
+  ],
+  "author": "li13",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

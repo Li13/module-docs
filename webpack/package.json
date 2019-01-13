@@ -1,0 +1,23 @@
+{
+  "name": "webpack-esm",
+  "version": "1.0.0",
+  "description": "esmodules running in webpack",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -d -w",
+    "node": "node dist/main.js",
+    "start": "npm run dist && npm run node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "esmodule",
+    "esm"
+  ],
+  "author": "li13",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
